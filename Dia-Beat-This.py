@@ -135,11 +135,11 @@ if st.button('Run MODEL'):
     # Load and display image based on prediction
     if prediction == 'Diabetic Risk':
         st.image('sugar-blood-level.png', width=200)
-        st.write('High Risk: Please consult your healthcare provider for further evaluation and management.')
+        st.write('High Risk in Diabetes: Please consult your healthcare provider for further evaluation and management.')
         st.markdown('<p style="font-size: 12px;">All content and media on the Project Dia-BEAT-this app is created and published online for informational purposes only. It is not intended to be a substitute for professional medical advice and should not be relied on as health or personal advice.</p>', unsafe_allow_html=True)
     elif prediction == 'Non-Diabetic':
         st.image('healthy.png', width=200)
-        st.write('Low Risk: No immediate concern, but it is always good to maintain a healthy lifestyle and regular check-ups.')
+        st.write('Low Risk in Diabetes: No immediate concern, but it is always good to maintain a healthy lifestyle and regular check-ups.')
         st.markdown('<p style="font-size: 12px;">All content and media on the Project Dia-BEAT-this app is created and published online for informational purposes only. It is not intended to be a substitute for professional medical advice and should not be relied on as health or personal advice.</p>', unsafe_allow_html=True)
 
 
