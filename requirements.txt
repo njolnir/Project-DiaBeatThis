@@ -1,11 +1,9 @@
 jupyterlab
-
 numpy
-
 pandas
 
 
 
 
 
-pickle==4.0
+
