@@ -2,6 +2,7 @@ jupyterlab
 numpy
 pandas
 streamlit
+sklearn
 
 
 
